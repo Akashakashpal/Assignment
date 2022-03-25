@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    
+</head>
+
+<body>
+    <div class="container">
+        <table class="table table-dark" id="our-table">
+            <tr>
+                <th>RollNo</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+            
+            <tbody id="table-body"></tbody>
+        </table>
+        <div id="button-container">
+            <button id="start">Start Page</button>
+            <button id="end">End Page</button>
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+            <button>Page Number: <span id="PageNo">1</span></button>
+            <select id="perPageContent">
+                <option value="3">3</option>
+                <option value="5" selected="selected">5</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
